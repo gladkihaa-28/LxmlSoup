@@ -140,4 +140,17 @@ class LxmlElement:
             return LxmlElement(previous_sibling_element)
         return None
 
+    def children(self):
+        elements = self.element.xpath(".")
+        return [LxmlElement(element) for element in elements]
+
+    def next_siblings(self):
+        elements = self.element.xpath("following::*")
+        return [LxmlElement(element) for element in elements]
+
+    def previous_siblings(self):
+        elements = self.element.xpath("preceding::*")
+        return [LxmlElement(element) for element in elements]
+
+
 
