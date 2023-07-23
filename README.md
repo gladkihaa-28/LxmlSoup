@@ -20,7 +20,7 @@ pip install LxmlSoup
 ### Example
 
 ```python
-from LxmlSoup.LxmlSoup import LxmlSoup
+from LxmlSoup import LxmlSoup
 import requests
 
 html = requests.get('https://sunlight.net/catalog').text
@@ -31,5 +31,8 @@ for link in links:
     print(link.text(), link.get('href'))
 ```
 
+
+You can support the author so that updates come out more often.
+Sberbank - 2202 2062 9710 1995
 
 
