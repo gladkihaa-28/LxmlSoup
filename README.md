@@ -1,6 +1,6 @@
 # LxmlSoup
 
-LxmlSoup is an analogue of BeautifulSoup, containing the most basic and necessary methods. Its speed exceeds bs4 by 2 times. The syntax is the same.
+LxmlSoup is an analogue of BeautifulSoup, containing the most basic and necessary methods. Its speed exceeds bs4 by 5 times. The syntax is the same.
 
 ```
 0.020386695861816406 - LxmlSoup
