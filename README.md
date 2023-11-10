@@ -3,8 +3,8 @@
 LxmlSoup is an analogue of BeautifulSoup, containing the most basic and necessary methods. Its speed exceeds bs4 by 2 times. The syntax is the same.
 
 ```
-0.7749056816101074 - LxmlSoup
-1.4368107318878174 - BeautifulSoup
+0.020386695861816406 - LxmlSoup
+0.10153651237487793 - BeautifulSoup
 ```
 
 ## Installation
@@ -15,6 +15,12 @@ Install with `pip` from PyPI:
 
 ```
 pip install LxmlSoup
+```
+
+Or cloning the repository:
+
+```
+git clone git@github.com:gladkihaa-28/LxmlSoup.git
 ```
 
 ### Example

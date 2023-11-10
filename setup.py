@@ -6,19 +6,19 @@ def readme():
 
 setup(
   name='LxmlSoup',
-  version='1.3.5',
+  version='1.4',
   author='Alexander554',
-  author_email='XXXXXXXXXXXXX',
+  author_email='gaa.280811@gmail.com',
   description='LxmlSoup is a set of tools for fast and easy parsing',
   long_description=readme(),
   long_description_content_type='text/markdown',
   packages=find_packages(),
-  install_requires=['lxml'],
+  install_requires=['lxml', 'cssselect'],
   classifiers=[
     'Programming Language :: Python :: 3.11',
     'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent'
   ],
-  keywords='LxmlSoup',
+  keywords=['LxmlSoup', 'BeautifulSoup', 'bs4', 'lxml', 'Soup'],
   python_requires='>=3.7'
 )
