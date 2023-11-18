@@ -6,7 +6,7 @@ def readme():
 
 setup(
   name='LxmlSoup',
-  version='1.4',
+  version='1.5.2',
   author='Alexander554',
   author_email='gaa.280811@gmail.com',
   description='LxmlSoup is a set of tools for fast and easy parsing',
