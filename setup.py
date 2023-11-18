@@ -13,7 +13,7 @@ setup(
   long_description=readme(),
   long_description_content_type='text/markdown',
   packages=find_packages(),
-  install_requires=['lxml', 'cssselect'],
+  install_requires=['lxml', 'cssselect', 'numba'],
   classifiers=[
     'Programming Language :: Python :: 3.11',
     'License :: OSI Approved :: MIT License',
